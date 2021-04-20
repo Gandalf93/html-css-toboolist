@@ -4,7 +4,8 @@
 
 body {
     background-color: rgb(253, 205, 214);
-    width: 1000px;
+    
+    line-height: 40px;
 }
 
 
@@ -17,6 +18,7 @@ body {
 }
 
 #logo {
+    
 }
 
 h1 {
@@ -24,21 +26,31 @@ h1 {
 }
 
 
+/* main */
+main{
+    width: 1000px;
+}
+
+
+
 /* sezione 1 */
 
 .containermenu {
     background-color: white;
     margin-top: 40px;
-    margin-bottom: 5px;
+    
 
 }
 
 #pulsante1{
-    background-color: pink;
+    background-color:  #45ABEA;
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 5px;
     padding: 5px;
+    border-color:  #45ABEA;
+    border-style: double;
+    color: white;
 }
 
 #pulsante2 {
@@ -47,7 +59,14 @@ h1 {
     margin-top: 15px;
     margin-bottom: 5px;
     padding: 5px;
+    color: grey;
+    border-color: rgb(214, 210, 210);
+    border-style: double;
 }
+
+
+
+
 
 
 /* sezione 2 lista */
@@ -58,8 +77,42 @@ h1 {
     
 }
 
-h2 {
-    margin-top: 0px;
+ul {
+      list-style: none;
+      margin-top: 0px;
+}
+
+
+span {
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+
+.editorial {
+    background-color: #45ABEA;
+   
+}
+
+#sales {
+    background-color: #B0C926;
+}
+#mobile{
+    background-color: #F29E33;
+}
+
+#recruiting{
+    background-color: #64C0A9;
+}
+
+#goals{
+    background-color: #9C72E4;
+}
+
+#website{
+    background-color: #D863A1;
 }
 
 
