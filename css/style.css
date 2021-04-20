@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 205, 214);
+    width: 1000px;
+}
+
+
+/* header */
+
+.containerhead {
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+#logo {
+}
+
+h1 {
+    display: inline-block;
+}
+
+
+/* sezione 1 */
+
+.containermenu {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 5px;
+
+}
+
+#pulsante1{
+    background-color: pink;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#pulsante2 {
+    background-color :white;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+/* sezione 2 lista */
+
+.containerlista{
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
