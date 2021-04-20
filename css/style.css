@@ -4,7 +4,7 @@
 
 body {
     background-color: rgb(253, 205, 214);
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 40px;
 }
 
@@ -22,26 +22,21 @@ body {
     margin-bottom: 5px;
     margin-left: 20px;
     vertical-align: middle;
-    
 }
 
 h1 {
     display: inline-block;
     vertical-align:sub;
     margin: 0px;
-    
 }
-
+    
+    
 
 /* main */
 main{
     width: 800px;
     margin-left: 260px;
-    
-    
-    
 }
-
 
 
 /* sezione 1 */
@@ -49,11 +44,6 @@ main{
 .containermenu {
     background-color: white;
     margin-top: 40px;
-  
-    
-    
-    
-
 }
 
 #pulsante1{
@@ -77,41 +67,42 @@ main{
     color: grey;
     border-color: rgb(214, 210, 210);
     border-style: double;
-    margin-left: 42px;
+    
     
 }
-
-
-
-
-
+  
 
 /* sezione 2 lista */
 
 .containerlista{
     background-color: white;
     border-radius: 5px;
-    
-    
 }
 
 ul {
-      list-style: none;
-      margin-top: 0px;
+    list-style: none;
+    margin: 5px;
 }
 
+h2 {
+    margin: 0;
+}
 
+.listainterna{
+    padding: 0px;
+}
+      
+
+
+
+/* layout caselle */
 span {
     padding: 5px;
     border-radius: 10px;
-    color: white;
-
 }
-
-
+    
 .editorial {
     background-color: #45ABEA;
-   
 }
 
 #sales {
@@ -133,7 +124,27 @@ span {
     background-color: #D863A1;
 }
 
+    color: white;
+    
+    
+    
 
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+   
 
 
 
