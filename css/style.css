@@ -18,17 +18,28 @@ body {
 }
 
 #logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    vertical-align: middle;
     
 }
 
 h1 {
     display: inline-block;
+    vertical-align:sub;
+    margin: 0px;
+    
 }
 
 
 /* main */
 main{
-    width: 1000px;
+    width: 800px;
+    margin-left: 260px;
+    
+    
+    
 }
 
 
@@ -38,6 +49,9 @@ main{
 .containermenu {
     background-color: white;
     margin-top: 40px;
+  
+    
+    
     
 
 }
@@ -51,6 +65,7 @@ main{
     border-color:  #45ABEA;
     border-style: double;
     color: white;
+    margin-left: 42px;
 }
 
 #pulsante2 {
@@ -62,6 +77,8 @@ main{
     color: grey;
     border-color: rgb(214, 210, 210);
     border-style: double;
+    margin-left: 42px;
+    
 }
 
 
@@ -74,6 +91,7 @@ main{
 .containerlista{
     background-color: white;
     border-radius: 5px;
+    
     
 }
 
